@@ -5,7 +5,7 @@ import os
 from fpdf import FPDF
 import base64
 
-# === SETUP ===
+# === SETUP ==
 DATA_DIR = "readings"
 os.makedirs(DATA_DIR, exist_ok=True)
 
